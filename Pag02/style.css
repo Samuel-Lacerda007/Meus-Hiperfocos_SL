@@ -194,7 +194,7 @@ body{
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 102vh;
+    top: 97vh;
     transform: scale(-1) rotateZ(160deg);
 }
 #MH_CB{
@@ -204,6 +204,6 @@ body{
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 99vh;
+    top: 95vh;
 }
 
