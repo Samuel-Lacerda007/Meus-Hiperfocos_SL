@@ -68,7 +68,7 @@ body{
     transform:  rotateZ(-5deg);
     z-index: 1;
     opacity: 88%;
-    top: 45vh;
+    top: 340px;
     display: block;
 }
 .Block:hover .MH_Logo{
@@ -118,7 +118,7 @@ body{
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 29vh;
+    top: 203px;
 }
 .MH_Fundo{
     position: relative;
@@ -127,7 +127,7 @@ body{
     transform:  rotateZ(0deg);
     z-index: -1;
     opacity: 80%;
-    top: 5vh;
+    top: 20px;
     border-radius: 10px;
     border: 2px solid;
     border-bottom: transparent;
@@ -177,7 +177,7 @@ body{
 }
 #Fundo{
     position: relative;
-    height: 100vh;
+    height: 750px;
     background: url(Imagem/Background.jpg) black;
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,7 +194,7 @@ body{
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 97vh;
+    top: 730px;
     transform: scale(-1) rotateZ(160deg);
 }
 #MH_CB{
@@ -204,6 +204,6 @@ body{
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 95vh;
+    top: 720px;
 }
 
