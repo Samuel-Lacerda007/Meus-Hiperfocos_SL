@@ -177,7 +177,7 @@ body{
 }
 #Fundo{
     position: relative;
-    height: 100vh;
+    height: 750px;
     background: url(Imagem/Background.jpg) black;
     background-size: cover;
     background-repeat: no-repeat;
