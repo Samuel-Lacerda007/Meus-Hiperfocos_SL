@@ -32,7 +32,7 @@ body{
 
 @media (min-width: 650px) and (max-width: 3000px) {
     #Fundo{
-        width: 100vw;
+        width: 800px;
     }
 }
 @media (min-width: 400px) and (max-width: 650px) {
