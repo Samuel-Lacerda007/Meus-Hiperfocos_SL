@@ -32,12 +32,13 @@ body{
 
 @media (min-width: 650px) and (max-width: 3000px) {
     #Fundo{
-        width: 800px;
+        width: 950px;
     }
 }
 @media (min-width: 400px) and (max-width: 650px) {
     #Fundo{
         width: 800px;
+        overflow-x: hidden;
     }
 }
 
@@ -64,7 +65,7 @@ body{
 }
 .MH{
     position: relative;
-    width: 300px;
+    width: 480px;
     transform:  rotateZ(-5deg);
     z-index: 1;
     opacity: 88%;
@@ -79,7 +80,7 @@ body{
 }
 .caixa-imagem{
     position: relative;
-    width: 300px;
+    width: 350px;
     height: 200px;
 }
 .caixa-imagem img{
@@ -114,15 +115,15 @@ body{
 .MH_Logo{
     position: relative;
     margin-left: 150px;
-    width: 200px;
+    width: 220px;
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 203px;
+    top: 198px;
 }
 .MH_Fundo{
     position: relative;
-    width: 320px;
+    width: 360px;
     height: 220px;
     transform:  rotateZ(0deg);
     z-index: -1;
@@ -146,7 +147,7 @@ body{
 }
 .Block{
     position: absolute;
-    width: 350px;
+    width: 400px;
     height: auto;
     word-break: break-all;
     top: 800px;
@@ -189,21 +190,21 @@ body{
 }
 .MH_Equip{
     position: absolute;
-    margin-left: 310px;
+    margin-left: 330px;
     width: 55px;
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 730px;
+    top: 715px;
     transform: scale(-1) rotateZ(160deg);
 }
 #MH_CB{
     position: absolute;
-    margin-left: 210px;
+    margin-left: 220px;
     width: 80px;
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 720px;
+    top: 705px;
 }
 
