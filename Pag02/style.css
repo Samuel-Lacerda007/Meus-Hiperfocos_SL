@@ -57,14 +57,14 @@ body{
     }
     #Fundo_Lado-Esquerdo{
         width: 25%;
-        left: 40px;
+        left: 0px;
     }
     #Fundo1{
         width: 93%;
     }
      #Fundo_Lado-Direita{
         width: 25%;
-        right: 15px;
+        right: -10px;
     }
 }
 
@@ -214,6 +214,7 @@ body{
     mask-image: linear-gradient(to bottom, transparent 0.5%, black 5%);
       filter: hue-rotate(10deg) saturate(50%);
       box-shadow: 0px 0px 25px 3px;
+      
 }
 #Fundo1{
     position: relative;
@@ -226,6 +227,7 @@ body{
     linear-gradient(to left, transparent 45%, black 150%),
     linear-gradient(to bottom, transparent 55%, black 150%);
     filter: hue-rotate(10deg) saturate(50%);
+    
      
 }
 
