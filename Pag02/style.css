@@ -51,20 +51,20 @@ body{
         right: 0px;
     }
 }
-@media (min-width: 400px) and (max-width: 650px) {
+@media (min-width: 320px) and (max-width: 650px) {
     #Fundo{
         width: 95%;
     }
     #Fundo_Lado-Esquerdo{
-        width: 5%;
-        left: 0px;
+        width: 10%;
+        right: -20px;
     }
     #Fundo1{
         width: 93%;
     }
      #Fundo_Lado-Direita{
-        width: 8%;
-        right: -10px;
+        width: 5%;
+        left: 0px;
     }
 }
 
@@ -245,13 +245,13 @@ body{
 
 #Fundo_Lado-Esquerdo{
     position:  absolute;
-    height: 905px;
+    height: 910px;
     top:  962px;
     background-color: rgb(0, 0, 0);
     mask-image: linear-gradient(to bottom, transparent 1%, black 5%);
       filter: hue-rotate(10deg) saturate(50%);
       opacity: 65%;
-      z-index: -6;
+      z-index: -2;
       
       
      
@@ -262,20 +262,20 @@ body{
     position: relative;
     
     height: 100%;
-    z-index: -5;
+    z-index: -3;
     object-fit: cover;
 
 }
 
  #Fundo_Lado-Direita{
     position:  absolute;
-    height: 905px;
+    height: 909px;
     top:  962px;
     background-color: rgb(0, 0, 0);
     mask-image: linear-gradient(to bottom, transparent 1%, black 5%);
       filter: hue-rotate(10deg) saturate(50%);
       opacity: 65%;
-    z-index: -6;
+    z-index: -2;
       
      
      
@@ -285,7 +285,7 @@ body{
     position: relative;
     
     height: 100%;
-
+    z-index: -3;
     object-fit: cover;
 
 }   
