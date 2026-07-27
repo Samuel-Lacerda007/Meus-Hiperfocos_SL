@@ -22,6 +22,7 @@ body{
     );
     overflow-x: hidden;
     font-family: 'Monster_Hunter', monospace;
+    background-color: black;
    
 }
 :root {
