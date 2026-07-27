@@ -1,7 +1,8 @@
 @charset "UTF-8";
 *{
-    margin: 0;
-    padding: 0;
+    width: 100%;
+  margin: 0;
+  padding: 0;
     box-sizing: border-box;
    
 }
@@ -11,6 +12,8 @@
     
 }
 body{
+    width: 100%;
+    height: auto;
     background: linear-gradient(
         180deg,
         rgb(56, 38, 38) 45%,
@@ -48,12 +51,12 @@ body{
     
 }
 .Half{
-    display: block;
+    display: grid;
     
     margin-top: 10px;
 
-    justify-self: center;
-    align-self: center;
+    justify-items: center;
+    align-content: center;
     
 }
 #FundoMH{
