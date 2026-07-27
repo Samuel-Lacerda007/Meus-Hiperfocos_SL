@@ -53,18 +53,18 @@ body{
 }
 @media (min-width: 400px) and (max-width: 650px) {
     #Fundo{
-        width: 90%;
+        width: 95%;
     }
     #Fundo_Lado-Esquerdo{
         width: 25%;
-        left: 430px;
+        left: 450px;
     }
     #Fundo1{
         width: 93%;
     }
      #Fundo_Lado-Direita{
         width: 5%;
-        left: 20px;
+        left: 0px;
     }
 }
 
