@@ -36,12 +36,12 @@ body{
 
 @media (min-width: 650px) and (max-width: 3000px) {
     #Fundo{
-        width: 950px;
+        width: 50%;
     }
 }
 @media (min-width: 400px) and (max-width: 650px) {
     #Fundo{
-        width: 499.8px;
+        width: 90%;
     }
 }
 
@@ -52,7 +52,6 @@ body{
 }
 .Half{
     display: grid;
-    width: 100%;
     margin-top: 10px;
 
     justify-items: center;
@@ -154,7 +153,7 @@ body{
     width: 400px;
     height: 500px;
     word-break: break-all;
-    top: 800px;
+    top: 900px;
     animation: back 1s alternate-reverse;
     
     
@@ -203,19 +202,19 @@ body{
     width: 55px;
     height: auto;
     transform:  rotateZ(0deg);
-    z-index: 1;
+    z-index: 2;
     opacity: 100%;
-    top: 715px;
-    transform: scale(-1) rotateZ(160deg);
+    top: 300px;
+    transform: scale(-1) rotateZ(180deg);
 }
 #MH_CB{
     position: absolute;
-    margin-left: 220px;
+    margin-left: 390px;
     width: 80px;
     height: auto;
     transform:  rotateZ(0deg);
     z-index: 1;
     opacity: 100%;
-    top: 705px;
+    top: 760px;
 }
 
