@@ -56,14 +56,14 @@ body{
         width: 95%;
     }
     #Fundo_Lado-Esquerdo{
-        width: 25%;
+        width: 5%;
         left: 0px;
     }
     #Fundo1{
         width: 93%;
     }
      #Fundo_Lado-Direita{
-        width: 25%;
+        width: 8%;
         right: -10px;
     }
 }
