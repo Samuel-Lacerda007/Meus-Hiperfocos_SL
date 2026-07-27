@@ -169,10 +169,7 @@ body{
     justify-items: center;
     opacity: 1;
 }
-.Half_Block:hover{
-    
-    opacity: 1;
-}
+
 .Block{
     position: absolute;
     width: 400px;
