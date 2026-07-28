@@ -46,13 +46,18 @@ body{
     #Fundo_Lado-Esquerdo{
         width: 25%;
         left: 1px;
+        top:  845px;
     }
     #Fundo_Lado-Direita{
         width: 25%;
         right: 0px;
+        top:  845px;
     }
     #Fundo_Top{
         height: 720px;
+    }
+    .Block{
+        top: 775px;
     }
 }
 @media (min-width: 320px) and (max-width: 650px) {
@@ -62,6 +67,7 @@ body{
     #Fundo_Lado-Esquerdo{
         width: 5%;
         right: 0px;
+        top:  690px;
     }
     #Fundo1{
         width: 93%;
@@ -69,9 +75,17 @@ body{
      #Fundo_Lado-Direita{
         width: 5%;
         left: 0px;
+        top:  690px;
     }
     #Fundo_Top{
-        height: 709px;
+        height: 480px;
+    }
+    #Mobile{
+        position: relative;
+        bottom: 220px;
+    }
+    .Block{
+        top: 620px;
     }
 }
 
@@ -211,7 +225,6 @@ body{
     width: 400px;
     height: 500px;
     word-break: break-all;
-    top: 775px;
     animation: back 1s alternate-reverse;
     
     
@@ -285,7 +298,7 @@ body{
 #Fundo_Lado-Esquerdo{
     position:  absolute;
     height: 910px;
-    top:  845px;
+    
     background-color: rgb(0, 0, 0);
     mask-image: linear-gradient(to bottom, transparent 0%, black 2%);
       filter: hue-rotate(10deg) saturate(50%);
@@ -309,7 +322,7 @@ body{
  #Fundo_Lado-Direita{
     position:  absolute;
     height: 909px;
-    top:  845px;
+    
     background-color: rgb(0, 0, 0);
     mask-image: linear-gradient(to bottom, transparent 0%, black 2%);
       filter: hue-rotate(10deg) saturate(50%);
@@ -331,14 +344,14 @@ body{
 
 .MH_Equip{
     position: absolute;
-    margin-left: 330px;
+    margin-left: -330px;
     width: 55px;
     height: auto;
     transform:  rotateZ(0deg);
-    z-index: 2;
+    z-index: 0;
     opacity: 100%;
-    top: 300px;
-    transform: scale(-1) rotateZ(180deg);
+    top: 290px;
+    transform: rotateZ(325deg);
 }
 #MH_CB{
     position: absolute;
