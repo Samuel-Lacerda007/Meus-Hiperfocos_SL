@@ -68,19 +68,28 @@ a {
     ) ;
 }
 :root {
-    --Colorido: linear-gradient(
+    --Monster: linear-gradient(
         80deg,
-         rgb(255, 230, 0),
-        rgb(255, 0, 0),
-       rgb(0, 255, 255),
-        rgb(0, 26, 255),
-       rgb(255, 0, 149),
-        rgb(204, 0, 255),
+         rgb(233, 178, 26),
+        rgb(190, 137, 23),
+       rgb(224, 164, 34),
+        rgb(71, 46, 9),
+       rgb(78, 54, 17),
+        rgb(53, 39, 0)
 
     ) ;
 }
 .n {
     background-image: var(--PVZ);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.m {
+    background-image: var(--Monster);
     background-clip: text;
     -webkit-background-clip: text;
 
