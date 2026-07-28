@@ -1,6 +1,6 @@
 @charset "UTF-8";
 *{
-    width: 100%;
+width: 100%;
   margin: 0;
   padding: 0;
     box-sizing: border-box;
@@ -13,6 +13,7 @@
 }
 
 body{
+   
     height: auto;
     background: linear-gradient(
         180deg,
@@ -22,7 +23,7 @@ body{
     overflow-x: auto;
     background-attachment: fixed;
     font-family: 'Monster_Hunter', monospace;
-    background-color: black;
+    background-color: transparent;
    
 }
 :root {
@@ -35,7 +36,7 @@ body{
     )
 }
 
-@media (min-width: 650px) and (max-width: 3000px) {
+@media (min-width: 651px) and (max-width: 8000px) {
     #Fundo{
         width: 50%;
     }
@@ -47,8 +48,11 @@ body{
         left: 1px;
     }
     #Fundo_Lado-Direita{
-        width: 30%;
+        width: 25%;
         right: 0px;
+    }
+    #Fundo_Top{
+        height: 720px;
     }
 }
 @media (min-width: 320px) and (max-width: 650px) {
@@ -56,8 +60,8 @@ body{
         width: 95%;
     }
     #Fundo_Lado-Esquerdo{
-        width: 10%;
-        right: -20px;
+        width: 5%;
+        right: 0px;
     }
     #Fundo1{
         width: 93%;
@@ -66,10 +70,13 @@ body{
         width: 5%;
         left: 0px;
     }
+    #Fundo_Top{
+        height: 709px;
+    }
 }
 
 #MH{
-    width: 280px;
+    width: 200px;
     padding-top: 15px;
     
 }
@@ -82,11 +89,11 @@ body{
     
 }
 #FundoMH{
-    width: 100vw;
-    height: 235px;
+    width: 100%;
+    height: 150px;
     background-color: rgb(56, 38, 38);
     box-shadow: 8px 0px 15px;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
 }
 .MH{
     position: relative;
@@ -106,7 +113,7 @@ body{
 }
 .caixa-imagem{
     position: relative;
-    width: 350px;
+    width: 295px;
     height: 200px;
 }
 .caixa-imagem img{
@@ -115,7 +122,7 @@ body{
    display: block;
 }
 .caixa-imagem:hover .Name_M {
-    transform: scale(1.3) rotateZ(0deg);
+    transform: scale(1.5) rotateZ(0deg);
     transition: 0.3s linear;
     opacity: 1;
 }
@@ -172,13 +179,39 @@ body{
     justify-items: center;
     opacity: 1;
 }
+.Half_Top{
+    display: block;
+    align-items: center;
+    justify-items: right;
+    opacity: 1;
+}
+
+#Fundo_Top{
+    position: absolute;
+    width: 100%;
+    top: 160px;
+    left: 0px;
+    z-index: -15;
+    background-color: rgb(0, 0, 0);
+    mask-image: linear-gradient(to top, transparent 0%, black 4%);
+    opacity: 85%;
+}
+#Fundo_Top video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -3;
+    object-fit:  fill;
+
+}
 
 .Block{
     position: absolute;
     width: 400px;
     height: 500px;
     word-break: break-all;
-    top: 900px;
+    top: 775px;
     animation: back 1s alternate-reverse;
     
     
@@ -201,17 +234,22 @@ body{
     mask-image: linear-gradient(to bottom, transparent 0%, black 3%);
 }
 #Text_Top{
-    width: 350px;
+    position: relative;
+    width: 500px;
     height: auto;
     font-size: 32px;
+    top: 400px;
+    border-top: solid;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 0%);
+    opacity: 55%;
+
 }
 #Fundo{
     position: relative;
     background-color: rgb(53, 146, 16);
-    height: 900px;
+    height: 910px;
     z-index: -1;
-    margin-top: 280px;
-    mask-image: linear-gradient(to bottom, transparent 0.5%, black 5%);
+    top: 695px;
       filter: hue-rotate(10deg) saturate(50%);
       box-shadow: 0px 0px 25px 3px;
       
@@ -221,7 +259,8 @@ body{
     background-color: rgb(53, 146, 16);
     height: 900px;
     z-index: -2;
-    bottom: 900px;
+    
+    bottom: 215px;
     mask-image: 
     linear-gradient(to right, transparent 45%, black 150%),
     linear-gradient(to left, transparent 45%, black 150%),
@@ -246,9 +285,9 @@ body{
 #Fundo_Lado-Esquerdo{
     position:  absolute;
     height: 910px;
-    top:  962px;
+    top:  845px;
     background-color: rgb(0, 0, 0);
-    mask-image: linear-gradient(to bottom, transparent 1%, black 5%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 2%);
       filter: hue-rotate(10deg) saturate(50%);
       opacity: 65%;
       z-index: -2;
@@ -270,9 +309,9 @@ body{
  #Fundo_Lado-Direita{
     position:  absolute;
     height: 909px;
-    top:  962px;
+    top:  845px;
     background-color: rgb(0, 0, 0);
-    mask-image: linear-gradient(to bottom, transparent 1%, black 5%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 2%);
       filter: hue-rotate(10deg) saturate(50%);
       opacity: 65%;
     z-index: -2;
