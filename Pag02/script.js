@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
   }, {
-    threshold: 0.85
+    threshold: 0.74
     //Aqui seria o final do que ele tem que fazer e começo das regras do observador que se aparecer 44% da classe escondido ele vai fazer aparecer a imagem.
   });
   //Final do observador
